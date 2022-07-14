@@ -35,7 +35,7 @@ function createContent(country){
         let listItemsCountry = country.map( elem => {
             const {name, capital, population,coatOfArms:{png}} = elem;
             return `<div class="country">
-                        <h1 class="country__title">${name.common}</h1>
+                        <h2 class="country__title">${name.common}</h2>
                     <div class="country__content">
                         <div class="country__content-info">
                             <p class="country__content-info--name">Capital:${capital}</p>
