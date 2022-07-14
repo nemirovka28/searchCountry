@@ -19,10 +19,12 @@
   },
   "dependencies": {
     "lodash.debounce": "^4.0.8",
+    "material-design-icons": "^3.0.1",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
+    "@pnotify/font-awesome4": "^5.2.0",
     "parcel": "^2.6.0",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
     "parcel-reporter-clean-dist": "^1.0.4",
