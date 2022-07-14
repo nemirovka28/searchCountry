@@ -1,1 +1,52 @@
+.form-control{
+    width: 250px;
+    height: 20px;
+    border-color: blue;
+}
+.input-help{
+    padding: 0;
+    margin: 0;
+    width:250px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background-color: rgb(237, 248, 248);
+}
+.input-help-text{
+    text-decoration: dashed;
+    padding-left: 10px;
+    font-size: 14px;
+    padding-top: 5px;
+}
+.country{
+    margin-top: 50px;
+    border: 1px solid red;
+    width: 500px;
+}
+.country__title{
+margin-left: 150px;
+margin-bottom: 20px;
+font-size: 24px;
+}
+.country__content{
+display: flex;
 
+}
+.country__content-info{
+    padding-left: 20px;
+}
+.country__content-info--name{
+    font-size: 16px;
+}
+
+.country__content-info--list{
+
+}
+.country__content-info--item{
+
+}
+.country__content-img{
+margin-left: 50px;
+width: 200px;
+height: 200px;
+}
