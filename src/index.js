@@ -63,16 +63,13 @@ function  createLiItem (country){
     }
 };
 function  createLanguageContent(country){
-    console.log(country)
     const lang = document.querySelector('.country__content-info--list')
     const li = country.map(el => Object.values(el.languages));
-    console.log(li)
     const liContent = li.map( el => {
         return `
         <li>${el}</li>
         `
     });
-    console.log(liContent)
     lang.insertAdjacentHTML('beforeend',liContent)
 };
 function clearMarkup () {
